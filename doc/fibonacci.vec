@@ -1,10 +1,3 @@
-# ANTLR-based implementation of Vectorize
-
-This repository contains the ANTLR-based implementation of Vectorize. In its core it is an interpreter.
-
-## Example: Fibonacci
-
-```
 fn main() {
     setup(5000, 1000);
     text(10, 35, "Fibonacci");
@@ -44,7 +37,6 @@ fn fibonacci_iter(n: int) -> int[] {
     }
     return series;
 }
-```
 
-Output:
-![Output of the above Vectorize program](doc/fibonacci.png)
+
+

@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vectorize.Editor", "Vectorize.Editor\Vectorize.Editor.csproj", "{DBB2D684-7DDD-4E2C-A90B-5CA0253CC009}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vectorize.Domain", "Vectorize.Domain\Vectorize.Domain.csproj", "{4C482452-B968-4CB9-A6D6-25A5958DD41E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vectorize.Interpreter", "Vectorize.Interpreter\Vectorize.Interpreter.csproj", "{D14100D9-8248-4001-BD95-3EA77294CAF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Vectorize", "Vectorize", "{107AEADB-7E9D-4FA3-B10E-00B00ECF3554}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Vectorize.App", "Vectorize.App", "{A09CD2F0-B9CB-4DFA-91BA-9A4F4F7F2747}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vectorize.CLI", "Vectorize.CLI\Vectorize.CLI.csproj", "{D1174CD9-95AC-450C-8683-7CD7324CC06A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBB2D684-7DDD-4E2C-A90B-5CA0253CC009}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBB2D684-7DDD-4E2C-A90B-5CA0253CC009}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBB2D684-7DDD-4E2C-A90B-5CA0253CC009}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBB2D684-7DDD-4E2C-A90B-5CA0253CC009}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C482452-B968-4CB9-A6D6-25A5958DD41E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C482452-B968-4CB9-A6D6-25A5958DD41E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C482452-B968-4CB9-A6D6-25A5958DD41E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C482452-B968-4CB9-A6D6-25A5958DD41E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D14100D9-8248-4001-BD95-3EA77294CAF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D14100D9-8248-4001-BD95-3EA77294CAF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D14100D9-8248-4001-BD95-3EA77294CAF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D14100D9-8248-4001-BD95-3EA77294CAF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1174CD9-95AC-450C-8683-7CD7324CC06A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1174CD9-95AC-450C-8683-7CD7324CC06A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1174CD9-95AC-450C-8683-7CD7324CC06A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1174CD9-95AC-450C-8683-7CD7324CC06A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DBB2D684-7DDD-4E2C-A90B-5CA0253CC009} = {A09CD2F0-B9CB-4DFA-91BA-9A4F4F7F2747}
+		{4C482452-B968-4CB9-A6D6-25A5958DD41E} = {107AEADB-7E9D-4FA3-B10E-00B00ECF3554}
+		{D14100D9-8248-4001-BD95-3EA77294CAF4} = {107AEADB-7E9D-4FA3-B10E-00B00ECF3554}
+		{D1174CD9-95AC-450C-8683-7CD7324CC06A} = {A09CD2F0-B9CB-4DFA-91BA-9A4F4F7F2747}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33D63133-FB75-4ABD-A2B4-F619F443FDC1}
+	EndGlobalSection
+EndGlobal
