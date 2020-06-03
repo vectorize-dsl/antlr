@@ -5,11 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\..\grammar\vectorize.g4" Link="vectorize.g4" />
+    <Folder Include="Parser\" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Parser\" />
+    <None Include="..\grammar\Vectorize.g4" Link="Vectorize.g4" />
   </ItemGroup>
 
   <ItemGroup>

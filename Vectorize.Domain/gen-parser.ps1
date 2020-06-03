@@ -1,5 +1,5 @@
-﻿$grammarFile = '../../grammar/Vectorize.g4'
-$toolsDir = '../../tools'
+﻿$grammarFile = '../grammar/Vectorize.g4'
+$toolsDir = '../tools'
 $antlrTool = "$toolsDir/antlr4.jar"
 $antlrDownloadUrl = 'https://www.antlr.org/download/antlr-4.7.2-complete.jar'
 
